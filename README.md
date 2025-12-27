@@ -1,4 +1,4 @@
-# Smart Campus Lost & Found System
+# 🎒Smart Campus Lost & Found System
 
 A full-stack web application designed to help college students report, search, and match lost and found items on campus. Built with React, TypeScript, and Supabase.
 ### URL: https://smartcampuslostfoundwebsite.lovable.app/
@@ -35,7 +35,21 @@ A full-stack web application designed to help college students report, search, a
   - Storage (Supabase Storage)
   - Edge Functions (Deno)
   - Realtime (WebSockets)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) 
 
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+ 
+ ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?logo=typescript&logoColor=white)
+
+![Vite](https://img.shields.io/badge/Vite-⚡-646CFF?logo=vite&logoColor=white)
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?logo=tailwindcss&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![Google APIs](https://img.shields.io/badge/Google%20APIs-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ## Project Structure
 
 ```
@@ -280,6 +294,10 @@ Example integration:
 ```typescript
 import vision from '@google-cloud/vision';
 
+| Parameter           | Type     | Description                |
+| :--------           | :------- | :------------------------- |
+| `Google API Vision` | `string` | `To add visual similarity matching`                          |
+
 const client = new vision.ImageAnnotatorClient();
 const [result] = await client.labelDetection(imageUrl);
 const labels = result.labelAnnotations;
@@ -321,4 +339,4 @@ For questions or issues, please open an issue on GitHub or contact the maintaine
 
 ---
 
-Built with ❤️ for college students everywhere
+Built with ❤️ for every college student

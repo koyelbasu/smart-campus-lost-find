@@ -1,7 +1,8 @@
 # Smart Campus Lost & Found System
 
 A full-stack web application designed to help college students report, search, and match lost and found items on campus. Built with React, TypeScript, and Supabase.
-
+### URL: https://smartcampuslostfoundwebsite.lovable.app/
+### we used Lovable APp for deploying the project
 ## Features
 
 ### Core Functionality
